@@ -1,0 +1,59 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+main > :first-child {
+  margin-top: 0;
+}
+
+main > :last-child {
+  margin-bottom: 0;
+}
+
+.navbar {
+  border-bottom: solid 1px;
+  padding-bottom: 1rem;
+}
+
+.main-invoices {
+  padding: 1rem 0;
+}
+
+.main-expenses {
+  padding: 1rem 0;
+}
+
+.invoices-navbar {
+  border-right: solid 1px;
+  padding: 1rem;
+}
+
+.inv-container {
+  display: flex;
+}
+
+.invoice {
+  display: block;
+  margin: 1rem 0;
+}
+
+.nothing {
+  padding: 1rem;
+}
+
+.invoice-due {
+  padding: 1rem;
+}
+
+.index-route {
+  padding: 1rem;
+}
